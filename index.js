@@ -1,4 +1,4 @@
-
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 var express = require('express');
 var fs = require('fs');
 var DATABASE = require('./database.js');
