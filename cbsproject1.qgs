@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.16.0-Hannover" saveDateTime="2021-03-30T19:10:08" projectname="" saveUserFull="zeynep esirgenci" saveUser="zesir_000">
+<qgis projectname="" version="3.16.0-Hannover" saveUser="zesir_000" saveUserFull="zeynep esirgenci" saveDateTime="2021-03-30T15:00:24">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -20,28 +20,29 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer id="trees_type_0aad8c34_1047_4901_9abf_3ea3a9dd1e50" checked="Qt::Checked" legend_exp="" expanded="1" patch_size="-1,-1" legend_split_behavior="0" source="dbname='dcmt815k62jt7l' host=ec2-54-211-176-156.compute-1.amazonaws.com port=5432 user='wijxvlqkfmaukt' sslmode=allow key='name_en' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;trees_type&quot;" providerKey="postgres" name="trees_type">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" legend_split_behavior="0" name="trees_type" providerKey="postgres" id="trees_type_0aad8c34_1047_4901_9abf_3ea3a9dd1e50" legend_exp="" patch_size="-1,-1" source="dbname='dcmt815k62jt7l' host=ec2-54-211-176-156.compute-1.amazonaws.com port=5432 user='wijxvlqkfmaukt' sslmode=allow key='name_en' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;trees_type&quot;">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="trees_789f285b_7ce4_47e6_9ef3_b705140454f3" checked="Qt::Checked" legend_exp="" expanded="1" patch_size="-1,-1" legend_split_behavior="0" source="dbname='dcmt815k62jt7l' host=ec2-54-211-176-156.compute-1.amazonaws.com port=5432 user='wijxvlqkfmaukt' sslmode=allow key='id' srid=4326 type=Point checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;trees&quot; (loc)" providerKey="postgres" name="trees">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" legend_split_behavior="0" name="trees" providerKey="postgres" id="trees_789f285b_7ce4_47e6_9ef3_b705140454f3" legend_exp="" patch_size="-1,-1" source="dbname='dcmt815k62jt7l' host=ec2-54-211-176-156.compute-1.amazonaws.com port=5432 user='wijxvlqkfmaukt' sslmode=allow key='id' srid=4326 type=Point checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;trees&quot; (loc)">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="regions_ef46dffc_1771_4722_8a39_2554fd4fd5b9" checked="Qt::Checked" legend_exp="" expanded="1" patch_size="-1,-1" legend_split_behavior="0" source="dbname='dcmt815k62jt7l' host=ec2-54-211-176-156.compute-1.amazonaws.com port=5432 user='wijxvlqkfmaukt' sslmode=allow key='region_id' srid=4326 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;regions&quot; (region_geom)" providerKey="postgres" name="regions">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" legend_split_behavior="0" name="regions" providerKey="postgres" id="regions_ef46dffc_1771_4722_8a39_2554fd4fd5b9" legend_exp="" patch_size="-1,-1" source="dbname='dcmt815k62jt7l' host=ec2-54-211-176-156.compute-1.amazonaws.com port=5432 user='wijxvlqkfmaukt' sslmode=allow key='region_id' srid=4326 type=Polygon checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;regions&quot; (region_geom)">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="OpenStreetMap_9715b0c1_e3ae_4fbb_9561_a48d11487cad" checked="Qt::Checked" legend_exp="" expanded="1" patch_size="-1,-1" legend_split_behavior="0" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=https://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" providerKey="wms" name="OpenStreetMap">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" legend_split_behavior="0" name="OpenStreetMap" providerKey="wms" id="OpenStreetMap_9715b0c1_e3ae_4fbb_9561_a48d11487cad" legend_exp="" patch_size="-1,-1" source="type=xyz&amp;url=https://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
       <item>trees_789f285b_7ce4_47e6_9ef3_b705140454f3</item>
       <item>regions_ef46dffc_1771_4722_8a39_2554fd4fd5b9</item>
       <item>OpenStreetMap_9715b0c1_e3ae_4fbb_9561_a48d11487cad</item>
+      <item>trees_type_0aad8c34_1047_4901_9abf_3ea3a9dd1e50</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings enabled="0" minScale="0" scaleDependencyMode="0" type="1" intersection-snapping="0" mode="2" maxScale="0" unit="1" tolerance="12" self-snapping="0">
+  <snapping-settings scaleDependencyMode="0" maxScale="0" tolerance="12" type="1" enabled="0" unit="1" mode="2" intersection-snapping="0" minScale="0" self-snapping="0">
     <individual-layer-settings>
-      <layer-setting enabled="0" id="trees_789f285b_7ce4_47e6_9ef3_b705140454f3" minScale="0" type="1" maxScale="0" tolerance="12" units="1"/>
-      <layer-setting enabled="0" id="regions_ef46dffc_1771_4722_8a39_2554fd4fd5b9" minScale="0" type="1" maxScale="0" tolerance="12" units="1"/>
+      <layer-setting maxScale="0" tolerance="12" type="1" enabled="0" id="regions_ef46dffc_1771_4722_8a39_2554fd4fd5b9" units="1" minScale="0"/>
+      <layer-setting maxScale="0" tolerance="12" type="1" enabled="0" id="trees_789f285b_7ce4_47e6_9ef3_b705140454f3" units="1" minScale="0"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -95,7 +96,7 @@
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
-  <main-annotation-layer autoRefreshTime="0" type="annotation" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" autoRefreshEnabled="0">
+  <main-annotation-layer refreshOnNotifyEnabled="0" type="annotation" autoRefreshEnabled="0" refreshOnNotifyMessage="" autoRefreshTime="0">
     <id>Annotations_bb0ba3f2_b900_46fa_8e5b_82faf3e17d50</id>
     <datasource></datasource>
     <keywordList>
@@ -144,7 +145,7 @@
     <layerOpacity>1</layerOpacity>
   </main-annotation-layer>
   <projectlayers>
-    <maplayer autoRefreshTime="0" minScale="1e+08" type="raster" refreshOnNotifyEnabled="0" maxScale="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0">
+    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" autoRefreshEnabled="0" styleCategories="AllStyleCategories" minScale="1e+08" refreshOnNotifyMessage="" autoRefreshTime="0">
       <extent>
         <xmin>-20037508.34278924390673637</xmin>
         <ymin>-20037508.34278925508260727</ymin>
@@ -152,7 +153,7 @@
         <ymax>20037508.34278924390673637</ymax>
       </extent>
       <id>OpenStreetMap_9715b0c1_e3ae_4fbb_9561_a48d11487cad</id>
-      <datasource>crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=https://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0</datasource>
+      <datasource>type=xyz&amp;url=https://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -197,7 +198,7 @@
       </resourceMetadata>
       <provider>wms</provider>
       <noData>
-        <noDataList useSrcNoData="0" bandNo="1"/>
+        <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
       <map-layer-style-manager current="default">
         <map-layer-style name="default"/>
@@ -205,7 +206,7 @@
       <flags>
         <Identifiable>1</Identifiable>
         <Removable>1</Removable>
-        <Searchable>0</Searchable>
+        <Searchable>1</Searchable>
       </flags>
       <temporal enabled="0" mode="0" fetchMode="0">
         <fixedRange>
@@ -218,9 +219,9 @@
       </customproperties>
       <pipe>
         <provider>
-          <resampling zoomedInResamplingMethod="nearestNeighbour" enabled="false" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
+          <resampling zoomedOutResamplingMethod="nearestNeighbour" enabled="false" zoomedInResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" opacity="1" type="singlebandcolordata" alphaBand="-1" nodataColor="">
+        <rasterrenderer nodataColor="" band="1" type="singlebandcolordata" alphaBand="-1" opacity="1">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -232,13 +233,13 @@
           </minMaxOrigin>
         </rasterrenderer>
         <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
-        <huesaturation colorizeOn="0" colorizeStrength="100" saturation="0" colorizeRed="255" colorizeGreen="128" grayscaleMode="0" colorizeBlue="128"/>
+        <huesaturation saturation="0" colorizeOn="0" colorizeStrength="100" colorizeBlue="128" grayscaleMode="0" colorizeGreen="128" colorizeRed="255"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer readOnly="0" simplifyDrawingHints="1" geometry="Polygon" labelsEnabled="0" simplifyMaxScale="1" simplifyDrawingTol="1" maxScale="0" autoRefreshTime="0" wkbType="Polygon" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" minScale="100000000" refreshOnNotifyMessage="" simplifyAlgorithm="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" type="vector" simplifyLocal="1">
+    <maplayer maxScale="0" simplifyDrawingTol="1" refreshOnNotifyMessage="" geometry="Polygon" wkbType="Polygon" autoRefreshEnabled="0" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" labelsEnabled="0" type="vector" minScale="100000000" readOnly="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" simplifyDrawingHints="1">
       <id>regions_ef46dffc_1771_4722_8a39_2554fd4fd5b9</id>
       <datasource>dbname='dcmt815k62jt7l' host=ec2-54-211-176-156.compute-1.amazonaws.com port=5432 user='wijxvlqkfmaukt' password='c4a5dd26a85908987747d3d85f9a18132d99f9250eb6109e9e0ca06653c1d3d2' sslmode=allow key='region_id' srid=4326 type=Polygon checkPrimaryKeyUnicity='1' table="public"."regions" (region_geom)</datasource>
       <keywordList>
@@ -297,16 +298,16 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <temporal enabled="0" endField="" startField="" fixedDuration="0" endExpression="" durationUnit="min" accumulate="0" mode="0" startExpression="" durationField="">
+      <temporal startField="" durationField="" startExpression="" endExpression="" fixedDuration="0" enabled="0" accumulate="0" mode="0" endField="" durationUnit="min">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+      <renderer-v2 forceraster="0" enableorderby="0" type="singleSymbol" symbollevels="0">
         <symbols>
-          <symbol alpha="1" type="fill" force_rhr="0" name="0" clip_to_extent="1">
-            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
+          <symbol type="fill" name="0" alpha="1" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" enabled="1" locked="0" class="SimpleFill">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="225,89,137,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -320,9 +321,9 @@
               <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" type="QString" name="name"/>
+                  <Option type="QString" value="" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" type="QString" name="type"/>
+                  <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -335,23 +336,23 @@
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
-      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
         <activeChecks type="StringList">
-          <Option value="" type="QString"/>
+          <Option type="QString" value=""/>
         </activeChecks>
         <checkConfiguration/>
       </geometryOptions>
       <legend type="default-vector"/>
       <referencedLayers/>
       <fieldConfiguration>
-        <field configurationFlags="None" name="region_id">
+        <field name="region_id" configurationFlags="None">
           <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
-        <field configurationFlags="None" name="responsible">
+        <field name="responsible" configurationFlags="None">
           <editWidget type="">
             <config>
               <Option/>
@@ -364,22 +365,22 @@
         <alias index="1" field="responsible" name=""/>
       </aliases>
       <defaults>
-        <default applyOnUpdate="0" field="region_id" expression=""/>
-        <default applyOnUpdate="0" field="responsible" expression=""/>
+        <default field="region_id" expression="" applyOnUpdate="0"/>
+        <default field="responsible" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint field="region_id" constraints="3" notnull_strength="1" unique_strength="1" exp_strength="0"/>
-        <constraint field="responsible" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="region_id" unique_strength="1" notnull_strength="1" exp_strength="0" constraints="3"/>
+        <constraint field="responsible" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="region_id" exp="" desc=""/>
-        <constraint field="responsible" exp="" desc=""/>
+        <constraint exp="" field="region_id" desc=""/>
+        <constraint exp="" field="responsible" desc=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
@@ -401,13 +402,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer readOnly="0" simplifyDrawingHints="0" geometry="Point" labelsEnabled="0" simplifyMaxScale="1" simplifyDrawingTol="1" maxScale="0" autoRefreshTime="0" wkbType="Point" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" minScale="100000000" refreshOnNotifyMessage="" simplifyAlgorithm="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" type="vector" simplifyLocal="1">
-      <extent>
-        <xmin>27.27469960000000171</xmin>
-        <ymin>38.42934394842210111</ymin>
-        <xmax>27.27505034481389856</xmax>
-        <ymax>38.42955226386160206</ymax>
-      </extent>
+    <maplayer maxScale="0" simplifyDrawingTol="1" refreshOnNotifyMessage="" geometry="Point" wkbType="Point" autoRefreshEnabled="0" autoRefreshTime="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" labelsEnabled="0" type="vector" minScale="100000000" readOnly="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" simplifyDrawingHints="0">
       <id>trees_789f285b_7ce4_47e6_9ef3_b705140454f3</id>
       <datasource>dbname='dcmt815k62jt7l' host=ec2-54-211-176-156.compute-1.amazonaws.com port=5432 user='wijxvlqkfmaukt' password='c4a5dd26a85908987747d3d85f9a18132d99f9250eb6109e9e0ca06653c1d3d2' sslmode=allow key='id' srid=4326 type=Point checkPrimaryKeyUnicity='1' table="public"."trees" (loc)</datasource>
       <keywordList>
@@ -460,7 +455,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxz="0" minz="0" maxx="0" crs="EPSG:4326" minx="0" miny="0" maxy="0" dimensions="2"/>
+          <spatial minx="0" miny="0" crs="EPSG:4326" minz="0" maxx="0" dimensions="2" maxy="0" maxz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -483,16 +478,16 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <temporal enabled="0" endField="" startField="" fixedDuration="0" endExpression="" durationUnit="min" accumulate="0" mode="0" startExpression="" durationField="">
+      <temporal startField="" durationField="" startExpression="" endExpression="" fixedDuration="0" enabled="0" accumulate="0" mode="0" endField="" durationUnit="min">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+      <renderer-v2 forceraster="0" enableorderby="0" type="singleSymbol" symbollevels="0">
         <symbols>
-          <symbol alpha="1" type="marker" force_rhr="0" name="0" clip_to_extent="1">
-            <layer enabled="1" class="SimpleMarker" locked="0" pass="0">
+          <symbol type="marker" name="0" alpha="1" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="229,182,54,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -513,9 +508,9 @@
               <prop v="1" k="vertical_anchor_point"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" type="QString" name="name"/>
+                  <Option type="QString" value="" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" type="QString" name="type"/>
+                  <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -527,7 +522,9 @@
       <customproperties>
         <property key="QFieldSync/action" value="offline"/>
         <property key="QFieldSync/photo_naming" value="{&quot;Photo&quot;: &quot;'DCIM/trees_' || format_date(now(),'yyyyMMddhhmmsszzz') || '.jpg'&quot;}"/>
-        <property key="dualview/previewExpressions" value="&quot;id&quot;"/>
+        <property key="dualview/previewExpressions">
+          <value>"id"</value>
+        </property>
         <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
@@ -536,12 +533,11 @@
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory height="15" spacingUnitScale="3x:0,0,0,0,0,0" maxScaleDenominator="1e+08" showAxis="1" penWidth="0" direction="0" spacing="5" rotationOffset="270" backgroundColor="#ffffff" opacity="1" backgroundAlpha="255" penAlpha="255" lineSizeType="MM" minimumSize="0" sizeScale="3x:0,0,0,0,0,0" enabled="0" penColor="#000000" sizeType="MM" labelPlacementMethod="XHeight" scaleBasedVisibility="0" minScaleDenominator="0" width="15" spacingUnit="MM" lineSizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" diagramOrientation="Up" barWidth="5">
-          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" label="" color="#000000"/>
+        <DiagramCategory lineSizeType="MM" penColor="#000000" scaleDependency="Area" spacing="5" minimumSize="0" scaleBasedVisibility="0" penAlpha="255" enabled="0" barWidth="5" diagramOrientation="Up" labelPlacementMethod="XHeight" height="15" spacingUnit="MM" backgroundAlpha="255" maxScaleDenominator="1e+08" penWidth="0" opacity="1" showAxis="1" direction="0" lineSizeScale="3x:0,0,0,0,0,0" sizeType="MM" minScaleDenominator="0" spacingUnitScale="3x:0,0,0,0,0,0" sizeScale="3x:0,0,0,0,0,0" rotationOffset="270" width="15" backgroundColor="#ffffff">
+          <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
           <axisSymbol>
-            <symbol alpha="1" type="line" force_rhr="0" name="" clip_to_extent="1">
-              <layer enabled="1" class="SimpleLine" locked="0" pass="0">
+            <symbol type="line" name="" alpha="1" clip_to_extent="1" force_rhr="0">
+              <layer pass="0" enabled="1" locked="0" class="SimpleLine">
                 <prop v="0" k="align_dash_pattern"/>
                 <prop v="square" k="capstyle"/>
                 <prop v="5;2" k="customdash"/>
@@ -565,9 +561,9 @@
                 <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
                 <data_defined_properties>
                   <Option type="Map">
-                    <Option value="" type="QString" name="name"/>
+                    <Option type="QString" value="" name="name"/>
                     <Option name="properties"/>
-                    <Option value="collection" type="QString" name="type"/>
+                    <Option type="QString" value="collection" name="type"/>
                   </Option>
                 </data_defined_properties>
               </layer>
@@ -575,88 +571,88 @@
           </axisSymbol>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings zIndex="0" showAll="1" linePlacementFlags="18" priority="0" obstacle="0" placement="0" dist="0">
+      <DiagramLayerSettings showAll="1" dist="0" obstacle="0" placement="0" priority="0" zIndex="0" linePlacementFlags="18">
         <properties>
           <Option type="Map">
-            <Option value="" type="QString" name="name"/>
+            <Option type="QString" value="" name="name"/>
             <Option name="properties"/>
-            <Option value="collection" type="QString" name="type"/>
+            <Option type="QString" value="collection" name="type"/>
           </Option>
         </properties>
       </DiagramLayerSettings>
-      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
         <activeChecks/>
         <checkConfiguration/>
       </geometryOptions>
       <legend type="default-vector"/>
       <referencedLayers/>
       <fieldConfiguration>
-        <field configurationFlags="None" name="t_type">
+        <field name="t_type" configurationFlags="None">
           <editWidget type="ValueRelation">
             <config>
               <Option type="Map">
-                <Option value="false" type="bool" name="AllowMulti"/>
-                <Option value="false" type="bool" name="AllowNull"/>
-                <Option value="" type="QString" name="Description"/>
-                <Option value="" type="QString" name="FilterExpression"/>
-                <Option value="name_en" type="QString" name="Key"/>
-                <Option value="trees_type_0aad8c34_1047_4901_9abf_3ea3a9dd1e50" type="QString" name="Layer"/>
-                <Option value="trees_type" type="QString" name="LayerName"/>
-                <Option value="postgres" type="QString" name="LayerProviderName"/>
-                <Option value="dbname='dcmt815k62jt7l' host=ec2-54-211-176-156.compute-1.amazonaws.com port=5432 user='wijxvlqkfmaukt' sslmode=allow key='name_en' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;trees_type&quot;" type="QString" name="LayerSource"/>
-                <Option value="1" type="int" name="NofColumns"/>
-                <Option value="false" type="bool" name="OrderByValue"/>
-                <Option value="false" type="bool" name="UseCompleter"/>
-                <Option value="name_en" type="QString" name="Value"/>
+                <Option type="bool" value="false" name="AllowMulti"/>
+                <Option type="bool" value="false" name="AllowNull"/>
+                <Option type="QString" value="" name="Description"/>
+                <Option type="QString" value="" name="FilterExpression"/>
+                <Option type="QString" value="name_en" name="Key"/>
+                <Option type="QString" value="trees_type_0aad8c34_1047_4901_9abf_3ea3a9dd1e50" name="Layer"/>
+                <Option type="QString" value="trees_type" name="LayerName"/>
+                <Option type="QString" value="postgres" name="LayerProviderName"/>
+                <Option type="QString" value="dbname='dcmt815k62jt7l' host=ec2-54-211-176-156.compute-1.amazonaws.com port=5432 user='wijxvlqkfmaukt' sslmode=allow key='name_en' checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;trees_type&quot;" name="LayerSource"/>
+                <Option type="int" value="1" name="NofColumns"/>
+                <Option type="bool" value="false" name="OrderByValue"/>
+                <Option type="bool" value="false" name="UseCompleter"/>
+                <Option type="QString" value="name_en" name="Value"/>
               </Option>
             </config>
           </editWidget>
         </field>
-        <field configurationFlags="None" name="height">
+        <field name="height" configurationFlags="None">
           <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
-        <field configurationFlags="None" name="id">
+        <field name="id" configurationFlags="None">
           <editWidget type="Hidden">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
-        <field configurationFlags="None" name="observation_time">
+        <field name="observation_time" configurationFlags="None">
           <editWidget type="DateTime">
             <config>
               <Option type="Map">
-                <Option value="true" type="bool" name="allow_null"/>
-                <Option value="true" type="bool" name="calendar_popup"/>
-                <Option value="yyyy-MM-dd HH:mm:ss" type="QString" name="display_format"/>
-                <Option value="yyyy-MM-dd HH:mm:ss" type="QString" name="field_format"/>
-                <Option value="false" type="bool" name="field_iso_format"/>
+                <Option type="bool" value="true" name="allow_null"/>
+                <Option type="bool" value="true" name="calendar_popup"/>
+                <Option type="QString" value="yyyy-MM-dd HH:mm:ss" name="display_format"/>
+                <Option type="QString" value="yyyy-MM-dd HH:mm:ss" name="field_format"/>
+                <Option type="bool" value="false" name="field_iso_format"/>
               </Option>
             </config>
           </editWidget>
         </field>
-        <field configurationFlags="None" name="Photo">
+        <field name="Photo" configurationFlags="None">
           <editWidget type="ExternalResource">
             <config>
               <Option type="Map">
-                <Option value="C:/Users/zesir_000/Desktop/okul4/CBS/cbsodev/DCIM" type="QString" name="DefaultRoot"/>
-                <Option value="1" type="int" name="DocumentViewer"/>
-                <Option value="0" type="int" name="DocumentViewerHeight"/>
-                <Option value="0" type="int" name="DocumentViewerWidth"/>
-                <Option value="true" type="bool" name="FileWidget"/>
-                <Option value="true" type="bool" name="FileWidgetButton"/>
-                <Option value="" type="QString" name="FileWidgetFilter"/>
+                <Option type="QString" value="C:/Users/zesir_000/Desktop/okul4/CBS/cbsodev/DCIM" name="DefaultRoot"/>
+                <Option type="int" value="1" name="DocumentViewer"/>
+                <Option type="int" value="0" name="DocumentViewerHeight"/>
+                <Option type="int" value="0" name="DocumentViewerWidth"/>
+                <Option type="bool" value="true" name="FileWidget"/>
+                <Option type="bool" value="true" name="FileWidgetButton"/>
+                <Option type="QString" value="" name="FileWidgetFilter"/>
                 <Option type="Map" name="PropertyCollection">
-                  <Option value="" type="QString" name="name"/>
+                  <Option type="QString" value="" name="name"/>
                   <Option name="properties"/>
-                  <Option value="collection" type="QString" name="type"/>
+                  <Option type="QString" value="collection" name="type"/>
                 </Option>
-                <Option value="1" type="int" name="RelativeStorage"/>
-                <Option value="0" type="int" name="StorageMode"/>
+                <Option type="int" value="1" name="RelativeStorage"/>
+                <Option type="int" value="0" name="StorageMode"/>
               </Option>
             </config>
           </editWidget>
@@ -670,38 +666,38 @@
         <alias index="4" field="Photo" name=""/>
       </aliases>
       <defaults>
-        <default applyOnUpdate="0" field="t_type" expression=""/>
-        <default applyOnUpdate="0" field="height" expression=""/>
-        <default applyOnUpdate="0" field="id" expression=""/>
-        <default applyOnUpdate="0" field="observation_time" expression="now()"/>
-        <default applyOnUpdate="0" field="Photo" expression=""/>
+        <default field="t_type" expression="" applyOnUpdate="0"/>
+        <default field="height" expression="" applyOnUpdate="0"/>
+        <default field="id" expression="" applyOnUpdate="0"/>
+        <default field="observation_time" expression="now()" applyOnUpdate="0"/>
+        <default field="Photo" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint field="t_type" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint field="height" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint field="id" constraints="3" notnull_strength="1" unique_strength="1" exp_strength="0"/>
-        <constraint field="observation_time" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint field="Photo" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="t_type" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="height" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="id" unique_strength="1" notnull_strength="1" exp_strength="0" constraints="3"/>
+        <constraint field="observation_time" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint field="Photo" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="t_type" exp="" desc=""/>
-        <constraint field="height" exp="" desc=""/>
-        <constraint field="id" exp="" desc=""/>
-        <constraint field="observation_time" exp="" desc=""/>
-        <constraint field="Photo" exp="" desc=""/>
+        <constraint exp="" field="t_type" desc=""/>
+        <constraint exp="" field="height" desc=""/>
+        <constraint exp="" field="id" desc=""/>
+        <constraint exp="" field="observation_time" desc=""/>
+        <constraint exp="" field="Photo" desc=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="&quot;t_type&quot;" sortOrder="0" actionWidgetStyle="dropDown">
+      <attributetableconfig sortOrder="0" sortExpression="&quot;t_type&quot;" actionWidgetStyle="dropDown">
         <columns>
-          <column type="field" width="-1" hidden="0" name="t_type"/>
-          <column type="field" width="-1" hidden="0" name="height"/>
-          <column type="field" width="-1" hidden="0" name="id"/>
-          <column type="field" width="-1" hidden="0" name="observation_time"/>
-          <column type="actions" width="-1" hidden="1"/>
-          <column type="field" width="-1" hidden="0" name="Photo"/>
+          <column hidden="0" type="field" name="t_type" width="-1"/>
+          <column hidden="0" type="field" name="height" width="-1"/>
+          <column hidden="0" type="field" name="id" width="-1"/>
+          <column hidden="0" type="field" name="observation_time" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
+          <column hidden="0" type="field" name="Photo" width="-1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -733,11 +729,11 @@ def my_form_open(dialog, layer, feature):
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <editable>
-        <field editable="1" name="Photo"/>
-        <field editable="1" name="height"/>
-        <field editable="0" name="id"/>
-        <field editable="1" name="observation_time"/>
-        <field editable="1" name="t_type"/>
+        <field name="Photo" editable="1"/>
+        <field name="height" editable="1"/>
+        <field name="id" editable="0"/>
+        <field name="observation_time" editable="1"/>
+        <field name="t_type" editable="1"/>
       </editable>
       <labelOnTop>
         <field labelOnTop="0" name="Photo"/>
@@ -751,7 +747,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>"id"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer autoRefreshTime="0" wkbType="NoGeometry" readOnly="0" minScale="1e+08" type="vector" refreshOnNotifyEnabled="0" maxScale="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" geometry="No geometry" autoRefreshEnabled="0">
+    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" geometry="No geometry" wkbType="NoGeometry" type="vector" readOnly="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories" minScale="1e+08" refreshOnNotifyMessage="" autoRefreshTime="0">
       <id>trees_type_0aad8c34_1047_4901_9abf_3ea3a9dd1e50</id>
       <datasource>dbname='dcmt815k62jt7l' host=ec2-54-211-176-156.compute-1.amazonaws.com port=5432 user='wijxvlqkfmaukt' password='c4a5dd26a85908987747d3d85f9a18132d99f9250eb6109e9e0ca06653c1d3d2' sslmode=allow key='name_en' checkPrimaryKeyUnicity='1' table="public"."trees_type"</datasource>
       <keywordList>
@@ -810,32 +806,34 @@ def my_form_open(dialog, layer, feature):
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <temporal enabled="0" endField="" startField="" fixedDuration="0" endExpression="" durationUnit="min" accumulate="0" mode="0" startExpression="" durationField="">
+      <temporal startField="" durationField="" startExpression="" endExpression="" fixedDuration="0" enabled="0" accumulate="0" mode="0" endField="" durationUnit="min">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
       <customproperties>
-        <property key="dualview/previewExpressions" value="&quot;name_en&quot;"/>
+        <property key="dualview/previewExpressions">
+          <value>"name_en"</value>
+        </property>
       </customproperties>
-      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
         <activeChecks type="StringList">
-          <Option value="" type="QString"/>
+          <Option type="QString" value=""/>
         </activeChecks>
         <checkConfiguration/>
       </geometryOptions>
       <legend type="default-vector"/>
       <referencedLayers/>
       <fieldConfiguration>
-        <field configurationFlags="None" name="name_en">
+        <field name="name_en" configurationFlags="None">
           <editWidget type="">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
-        <field configurationFlags="None" name="name_tr">
+        <field name="name_tr" configurationFlags="None">
           <editWidget type="">
             <config>
               <Option/>
@@ -848,26 +846,26 @@ def my_form_open(dialog, layer, feature):
         <alias index="1" field="name_tr" name=""/>
       </aliases>
       <defaults>
-        <default applyOnUpdate="0" field="name_en" expression=""/>
-        <default applyOnUpdate="0" field="name_tr" expression=""/>
+        <default field="name_en" expression="" applyOnUpdate="0"/>
+        <default field="name_tr" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint field="name_en" constraints="3" notnull_strength="1" unique_strength="1" exp_strength="0"/>
-        <constraint field="name_tr" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="name_en" unique_strength="1" notnull_strength="1" exp_strength="0" constraints="3"/>
+        <constraint field="name_tr" unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="name_en" exp="" desc=""/>
-        <constraint field="name_tr" exp="" desc=""/>
+        <constraint exp="" field="name_en" desc=""/>
+        <constraint exp="" field="name_tr" desc=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
         <columns>
-          <column type="field" width="-1" hidden="0" name="name_en"/>
-          <column type="field" width="-1" hidden="0" name="name_tr"/>
-          <column type="actions" width="-1" hidden="1"/>
+          <column hidden="0" type="field" name="name_en" width="-1"/>
+          <column hidden="0" type="field" name="name_tr" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -894,16 +892,9 @@ def my_form_open(dialog, layer, feature):
     <layer id="trees_789f285b_7ce4_47e6_9ef3_b705140454f3"/>
     <layer id="regions_ef46dffc_1771_4722_8a39_2554fd4fd5b9"/>
     <layer id="OpenStreetMap_9715b0c1_e3ae_4fbb_9561_a48d11487cad"/>
+    <layer id="trees_type_0aad8c34_1047_4901_9abf_3ea3a9dd1e50"/>
   </layerorder>
   <properties>
-    <DefaultStyles>
-      <ColorRamp type="QString"></ColorRamp>
-      <Fill type="QString"></Fill>
-      <Line type="QString"></Line>
-      <Marker type="QString"></Marker>
-      <Opacity type="double">1</Opacity>
-      <RandomColors type="bool">true</RandomColors>
-    </DefaultStyles>
     <Digitizing>
       <AvoidIntersectionsMode type="int">0</AvoidIntersectionsMode>
     </Digitizing>
@@ -919,9 +910,6 @@ def my_form_open(dialog, layer, feature):
     <Legend>
       <filterByMap type="bool">false</filterByMap>
     </Legend>
-    <Macros>
-      <pythonCode type="QString"></pythonCode>
-    </Macros>
     <Measure>
       <Ellipsoid type="QString">EPSG:7030</Ellipsoid>
     </Measure>
@@ -948,82 +936,16 @@ def my_form_open(dialog, layer, feature):
     <PositionPrecision>
       <Automatic type="bool">true</Automatic>
       <DecimalPlaces type="int">2</DecimalPlaces>
-      <DegreeFormat type="QString">MU</DegreeFormat>
     </PositionPrecision>
-    <QFieldSync>
-      <exportDirectoryProject type="QString">C:\Users\zesir_000\Desktop\okul4\CBS\cbsodev\export\cbsproject1</exportDirectoryProject>
-    </QFieldSync>
     <SpatialRefSys>
       <ProjectionsEnabled type="int">1</ProjectionsEnabled>
     </SpatialRefSys>
-    <WCSLayers type="QStringList"/>
-    <WCSUrl type="QString"></WCSUrl>
-    <WFSLayers type="QStringList"/>
-    <WFSTLayers>
-      <Delete type="QStringList"/>
-      <Insert type="QStringList"/>
-      <Update type="QStringList"/>
-    </WFSTLayers>
-    <WFSUrl type="QString"></WFSUrl>
-    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
-    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
-    <WMSContactMail type="QString"></WMSContactMail>
-    <WMSContactOrganization type="QString"></WMSContactOrganization>
-    <WMSContactPerson type="QString"></WMSContactPerson>
-    <WMSContactPhone type="QString"></WMSContactPhone>
-    <WMSContactPosition type="QString"></WMSContactPosition>
-    <WMSDefaultMapUnitsPerMm type="double">1</WMSDefaultMapUnitsPerMm>
-    <WMSFees type="QString">conditions unknown</WMSFees>
-    <WMSImageQuality type="int">90</WMSImageQuality>
-    <WMSKeywordList type="QStringList">
-      <value></value>
-    </WMSKeywordList>
-    <WMSMaxAtlasFeatures type="int">1</WMSMaxAtlasFeatures>
-    <WMSOnlineResource type="QString"></WMSOnlineResource>
-    <WMSPrecision type="QString">8</WMSPrecision>
-    <WMSRootName type="QString"></WMSRootName>
-    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
-    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
-    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
-    <WMSServiceTitle type="QString"></WMSServiceTitle>
-    <WMSTileBuffer type="int">0</WMSTileBuffer>
-    <WMSUrl type="QString"></WMSUrl>
-    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
-    <WMTSGrids>
-      <CRS type="QStringList"/>
-      <Config type="QStringList"/>
-    </WMTSGrids>
-    <WMTSJpegLayers>
-      <Group type="QStringList"/>
-      <Layer type="QStringList"/>
-      <Project type="bool">false</Project>
-    </WMTSJpegLayers>
-    <WMTSLayers>
-      <Group type="QStringList"/>
-      <Layer type="QStringList"/>
-      <Project type="bool">false</Project>
-    </WMTSLayers>
-    <WMTSMinScale type="int">5000</WMTSMinScale>
-    <WMTSPngLayers>
-      <Group type="QStringList"/>
-      <Layer type="QStringList"/>
-      <Project type="bool">false</Project>
-    </WMTSPngLayers>
-    <WMTSUrl type="QString"></WMTSUrl>
-    <qfieldsync>
-      <baseMapMupp type="double">10</baseMapMupp>
-      <baseMapTheme type="QString"></baseMapTheme>
-      <baseMapTileSize type="int">1024</baseMapTileSize>
-      <baseMapType type="QString">singleLayer</baseMapType>
-      <createBaseMap type="int">0</createBaseMap>
-      <offlineCopyOnlyAoi type="int">0</offlineCopyOnlyAoi>
-    </qfieldsync>
   </properties>
   <dataDefinedServerProperties>
     <Option type="Map">
-      <Option value="" type="QString" name="name"/>
+      <Option type="QString" value="" name="name"/>
       <Option name="properties"/>
-      <Option value="collection" type="QString" name="type"/>
+      <Option type="QString" value="collection" name="type"/>
     </Option>
   </dataDefinedServerProperties>
   <visibility-presets/>
@@ -1035,15 +957,6 @@ def my_form_open(dialog, layer, feature):
     <type></type>
     <title></title>
     <abstract></abstract>
-    <contact>
-      <name></name>
-      <organization></organization>
-      <position></position>
-      <voice></voice>
-      <fax></fax>
-      <email></email>
-      <role></role>
-    </contact>
     <links/>
     <author>zeynep esirgenci</author>
     <creation>2021-03-30T13:38:21</creation>
@@ -1054,18 +967,18 @@ def my_form_open(dialog, layer, feature):
   <ProjectViewSettings UseProjectScales="0">
     <Scales/>
   </ProjectViewSettings>
-  <ProjectTimeSettings frameRate="1" timeStepUnit="h" timeStep="1" cumulativeTemporalRange="0"/>
+  <ProjectTimeSettings frameRate="1" cumulativeTemporalRange="0" timeStepUnit="h" timeStep="1"/>
   <ProjectDisplaySettings>
     <BearingFormat id="bearing">
       <Option type="Map">
-        <Option value="" type="QChar" name="decimal_separator"/>
-        <Option value="6" type="int" name="decimals"/>
-        <Option value="0" type="int" name="direction_format"/>
-        <Option value="0" type="int" name="rounding_type"/>
-        <Option value="false" type="bool" name="show_plus"/>
-        <Option value="true" type="bool" name="show_thousand_separator"/>
-        <Option value="false" type="bool" name="show_trailing_zeros"/>
-        <Option value="" type="QChar" name="thousand_separator"/>
+        <Option type="QChar" value="" name="decimal_separator"/>
+        <Option type="int" value="6" name="decimals"/>
+        <Option type="int" value="0" name="direction_format"/>
+        <Option type="int" value="0" name="rounding_type"/>
+        <Option type="bool" value="false" name="show_plus"/>
+        <Option type="bool" value="true" name="show_thousand_separator"/>
+        <Option type="bool" value="false" name="show_trailing_zeros"/>
+        <Option type="QChar" value="" name="thousand_separator"/>
       </Option>
     </BearingFormat>
   </ProjectDisplaySettings>
